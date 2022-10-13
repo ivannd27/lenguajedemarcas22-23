@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE maquinas>
+<cluster>
+    <nodos nombre="1" ip="dfgdfgdfg">
+        <maquinas nombre="1">
+            <sistema_operativo>fdftgdfgdfghd</sistema_operativo>
+            <interfaces_red>
+                    <ip>fdgdfgfgd</ip>
+                    <mac>fgdfgdgd</mac>
+            </interfaces_red>
+        </maquinas>
+        <maquinas nombre="2">
+            <sistema_operativo>gdfgdgdfg</sistema_operativo>
+            <interfaces_red>
+                <ip>gdfgdgdfg</ip>
+                <mac>dfgdfgdfgdfgd</mac>
+            </interfaces_red>
+        </maquinas> 
+        <maquinas nombre="3">
+            <sistema_operativo>fdsfsfsfsf</sistema_operativo>
+            <interfaces_red>
+                <ip>fdsfsdfsdf</ip>
+                <mac>sdfsdf</mac>
+            </interfaces_red>
+                
+        </maquinas>
+    </nodos>
+    <nodos nombre="2" ip="sdfsdffsf">
+        <maquinas nombre="4">
+            <sistema_operativo>sdfsdfsdfs</sistema_operativo>
+            <interfaces_red>
+                    <ip>sdfsdfsdf</ip>
+                    <mac>dfsdfsdf</mac>
+            </interfaces_red>
+        </maquinas>
+        <maquinas nombre="5">
+            <sistema_operativo>sdfsdfsfwsf</sistema_operativo>
+            <interfaces_red>
+                <ip>dfsfsdfsfsfs</ip>
+                <mac>sdfsdfsf</mac>
+            </interfaces_red>
+        </maquinas> 
+        <maquinas nombre="6">
+            <sistema_operativo>sdfsfsfsf</sistema_operativo>
+            <interfaces_red>
+                <ip>dffsdfs</ip>
+                <mac>sdfsdfsdf</mac>
+            </interfaces_red>
+        </maquinas>
+    </nodos>
+    <nodos nombre="3" ip="ghjgjhghjghjg">
+        <maquinas nombre="7">
+            <sistema_operativo>hjgjgjgjgjgj</sistema_operativo>
+            <interfaces_red>
+                    <ip>ghjghjgjhgj</ip>
+                    <mac>gjghjgjgj</mac>
+            </interfaces_red>
+        </maquinas>
+        <maquinas nombre="8">
+            <sistema_operativo>ghjghjghj</sistema_operativo>
+            <interfaces_red>
+                <ip>hgjghjgjhj</ip>
+                <mac>gjghjghjgjgjgjh</mac>
+            </interfaces_red>
+        </maquinas> 
+        <maquinas nombre="9">
+            <sistema_operativo>hjgjhghjghjhj</sistema_operativo>
+            <interfaces_red>
+                <ip>ghjgjgjghjghjg</ip>
+                <mac>tyrtyryry</mac>
+            </interfaces_red>
+        </maquinas>
+    </nodos>
+    <nodos nombre="4" ip="rtyrtyrty">
+        <maquinas nombre="10">
+            <sistema_operativo>asdasddasda</sistema_operativo>
+            <interfaces_red>
+                    <ip>cvccbcbcbb</ip>
+                    <mac>nmmmbmmmgfhh</mac>
+            </interfaces_red>
+        </maquinas>
+        <maquinas nombre="11">
+            <sistema_operativo>lñklñkñkñ</sistema_operativo>
+            <interfaces_red>
+                <ip>reqrqerer</ip>
+                <mac>ewrwerwrwr</mac>
+            </interfaces_red>
+        </maquinas> 
+        <maquinas nombre="12">
+            <sistema_operativo>ewrwererwerwer</sistema_operativo>
+            <interfaces_red>
+                <ip>ergcbvbnhfghdf</ip>
+                <mac>nmnmbnmbmm</mac>
+            </interfaces_red>
+        </maquinas>
+    </nodos>
+    <nodos nombre="5" ip="qweqeqweqwe">
+        <maquinas nombre="13">
+            <sistema_operativo>dfgfghfggdfg</sistema_operativo>
+            <interfaces_red>
+                    <ip>5454545</ip>
+                    <mac>2151515</mac>
+            </interfaces_red>
+        </maquinas>
+        <maquinas nombre="14">
+            <sistema_operativo>fgdfgdfgdfg</sistema_operativo>
+            <interfaces_red>
+                <ip>gdfgdfgdg</ip>
+                <mac>15151551</mac>
+            </interfaces_red>
+        </maquinas> 
+        <maquinas nombre="15">
+            <sistema_operativo>fgdfgdfgdgdf</sistema_operativo>
+            <interfaces_red>
+                <ip>gdfgdfgdfg</ip>
+                <mac>2151515151</mac>
+            </interfaces_red>
+        </maquinas>
+    </nodos>
+    </cluster>

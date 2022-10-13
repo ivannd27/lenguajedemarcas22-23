@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa>
+<empresa>
+    <edifico direccion="calle peluca" num_plantas="3">
+        <plantas num_planta="1" num_cuadrados="">
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>0000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>0000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+        </plantas>
+    </edifico>
+    <edifico direccion="calle peluca" num_plantas="3">
+        <plantas num_planta="1" num_cuadrados="">
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>0000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>0000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+        </plantas>
+    </edifico>
+    <edifico direccion="calle peluca" num_plantas="3">
+        <plantas num_planta="1" num_cuadrados="">
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>0000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>0000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+            <empleados nombre="carlos" dni="11112222g">
+                <puesto>en la calle</puesto>
+                <telefono_pusto>000000000</telefono_pusto>
+            </empleados>
+        </plantas>
+    </edifico>
+ </empresa>

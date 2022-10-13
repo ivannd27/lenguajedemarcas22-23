@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tenis>
+<tenis>
+    <torneo>
+        <nombre>Sevilla Open</nombre>
+        <fecha_inicio>14-10-2022</fecha_inicio>
+        <fecha_finalizacion>16-10-2022</fecha_finalizacion>
+    </torneo>
+    <partido ronda="Repesca">
+        <fecha_partido>14-10-2022</fecha_partido>
+        <nombre_jugador1 dni="11111111v" edad="20">Daniel Heredia</nombre_jugador1>
+        <nombre_jugador2 dni="22222222s" edad="26">Francisco Narváez</nombre_jugador2>
+        <set_1>6-1</set_1>
+        <set_2>5-7</set_2>
+        <set_3>7-5</set_3>
+    </partido>
+    <partido ronda="Repesca">
+        <fecha_partido>14-10-2022</fecha_partido>
+        <nombre_jugador1 dni="33333333e" edad="19">Carlos Perez</nombre_jugador1>
+        <nombre_jugador2 dni="44444444l" edad="36">Rafael Nadal</nombre_jugador2>
+        <set_1>6-0</set_1>
+        <set_2>0-6</set_2>
+        <set_3>6-0</set_3>
+    </partido>
+    <partido ronda="Repesca">
+        <fecha_partido>14-10-2022</fecha_partido>
+        <nombre_jugador1 dni="55555555p" edad="15">pepe</nombre_jugador1>
+        <nombre_jugador2 dni="66666666w" edad="25">paco</nombre_jugador2>
+        <set_1>4-6</set_1>
+        <set_2>0-6</set_2>
+        <set_3></set_3>
+    </partido>
+    <partido ronda="Cuartos">
+        <fecha_partido>14-10-2022</fecha_partido>
+        <nombre_jugador1 dni="77777777m" edad="25">jose</nombre_jugador1>
+        <nombre_jugador2 dni="88888888n" edad="25">manuel</nombre_jugador2>
+        <set_1>6-0</set_1>
+        <set_2>6-0</set_2>
+        <set_3></set_3>
+    </partido>
+    <partido ronda="Cuartos">
+        <fecha_partido>14-10-2022</fecha_partido>
+        <nombre_jugador1 dni="11111111v" edad="20">Daniel Heredia</nombre_jugador1>
+        <nombre_jugador2 dni="99999999s" edad="25">Eustaquio</nombre_jugador2>
+        <set_1>5-7</set_1>
+        <set_2>7-5</set_2>
+        <set_3>6-0</set_3>
+    </partido>
+    <partido ronda="Cuartos">
+        <fecha_partido>14-10-2022</fecha_partido>
+        <nombre_jugador1 dni="10101010k" edad="23">sergio</nombre_jugador1>
+        <nombre_jugador2 dni="44444444l" edad="36">Rafael Nadal</nombre_jugador2>
+        <set_1>2-6</set_1>
+        <set_2>0-6</set_2>
+        <set_3></set_3>
+    </partido>
+    <partido ronda="Cuartos">
+        <fecha_partido>14-10-2022</fecha_partido>
+        <nombre_jugador1 dni="20202020c" edad="18">antonio</nombre_jugador1>
+        <nombre_jugador2 dni="11111111d" edad="12">david</nombre_jugador2>
+        <set_1></set_1>
+        <set_2></set_2>
+        <set_3></set_3>
+    </partido>
+    <partido ronda="Semifinales">
+        <fecha_partido>15-10-2022</fecha_partido>
+        <nombre_jugador1 dni="40404040h" edad="45">alejandro</nombre_jugador1>
+        <nombre_jugador2 dni="54545454j" edad="78">Heliodoro</nombre_jugador2>
+        <set_1>0-6</set_1>
+        <set_2>0-6</set_2>
+        <set_3></set_3>
+    </partido>
+    <partido ronda="Semifinales">
+        <fecha_partido>15-10-2022</fecha_partido>
+        <nombre_jugador1 dni="54545454m" edad="65">vicente</nombre_jugador1>
+        <nombre_jugador2 dni="55552222g" edad="14">messi</nombre_jugador2>
+        <set_1>6-0</set_1>
+        <set_2>0-6</set_2>
+        <set_3>5-7</set_3>
+    </partido>
+    <partido ronda="Final">
+        <fecha_partido>16-10-2022</fecha_partido>
+        <nombre_jugador1 dni="99454545r" edad="99">pele</nombre_jugador1>
+        <nombre_jugador2 dni="54545545w" edad="65">maradona</nombre_jugador2>
+        <set_1>0-6</set_1>
+        <set_2>6-3</set_2>
+        <set_3>5-7</set_3>
+    </partido>
+</tenis>
+    
