@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ejercicio2.dtd">
+<Libro Catalogo="terror">
+    <Titulo>Una Vez Soñé</Titulo>
+    <Seccion>Lo que el futuro</Seccion>
+    <SubSeccion>me deparba</SubSeccion>
+    <Contenido>
+        <Capitulo>
+            <Tema>había un patio andaluz</Tema>
+        </Capitulo>
+    </Contenido>
+    <Copyright>mi niño toca la guitarrra</Copyright>
+</Libro>

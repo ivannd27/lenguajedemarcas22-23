@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="el otro se hecha un baile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ejercicio4.xsd">
+<orderperson>mi mujer</orderperson>
+<shipto>
+    <name>y mi niñan bailaban</name>
+    <address>a compás de bulerias</address>
+    <city>mientras le toco las palmas</city>
+    <country>mi estrella blanca</country>
+</shipto>
+<item>
+    <title>La noche de ayer</title>
+    <note>espña</note>
+    <quantity>12</quantity>
+    <price>1</price>
+</item>
+</shiporder>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="11.xsd">
+    <pagina>
+        <nombre>yo</nombre>
+        <descripcion>pepe</descripcion>
+        <url>IESciudadjardin</url>
+    </pagina>
+    <pagina>
+        <nombre>paco</nombre>
+        <descripcion>tu</descripcion>
+        <url>vivaespaña</url>
+    </pagina>
+    <pagina>
+        <nombre>el</nombre>
+        <descripcion>nadie</descripcion>
+        <url>hola</url>
+    </pagina>
+</marcadores>
