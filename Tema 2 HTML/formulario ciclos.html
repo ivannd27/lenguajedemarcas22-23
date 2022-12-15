@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de inscripción</title>
+</head>
+
+<body>
+    <h2 style="text-align:center ;">HOJA DE INSCRIPCIÓN EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+    <form>
+        <fieldset style="background-color: rgba(128, 128, 128, 0.261);">
+            <legend style="font-weight:bold ; border:1px solid black ; background-color: rgb(255, 255, 255);">Datos personales</legend>
+            <table>
+
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Apellidos:</td>
+                    <td>DNI:</td>
+                </tr>
+                <tr style="text-align:center ;">
+                    <td><input type="text" name="nombre" id="id_nombre" required></td>
+                    <td><input type="text" name="apellidos" id="id_apellidos" required></td>
+                    <td><input type="text" name="DNI" id="id_DNI" required></td>
+                </tr>
+                <tr>
+                    <td>Localidad Nacimiento:</td>
+                    <td>Provincia:</td>
+                    <td>Fecha de Nacimiento:</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="localidad_de_nacimiento" id="id_localidad_de_nacimiento" required></td>
+                    <td> <select name="provincias" id="id_provincias">
+                        <option value="-seleccione-">-seleccione-</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Huelva">Huelva</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Jaén">Jaén</option>
+                        <option value="Almería">Almería</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Málaga">Málaga</option>
+                        <option value="Cádiz">Cádiz</option>
+                    </select>
+                    </td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Dirección:</td>
+                    <td>Código Postal:</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="drección" id="id_dirección" size="35"></td>
+                    <td><input type="text" name="Códigopostal" id="id_Códigopostal" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="background-color: rgba(255, 166, 0,0.296);">
+            <legend><label for="Forma de acceso" style="font-weight:bold ; border:1px solid black ; background-color: rgb(255, 255, 255);">Forma de acceso</label></legend>
+            <ul style="list-style-type:none;">
+                <li><input type="radio"> <label for="">Direct</label></li>
+                <ul style="list-style-type:none;">
+                    <li><input type="radio"> <label for="">Bachillerato LOGS Modalidad</label><input type="text" name="otro" id="id_otro" required></li>
+                    <li><input type="radio"> <label for="">Bachillerato Experimental</label></li>
+                    <li><input type="radio"> <label for="">COU. Opción</label><input type="text" name="otro" id="id_otro" required></li>
+                    <li><input type="radio"> <label for="">FP2</label></li>
+                    <li><input type="radio"> <label for="">Otros(especifique)</label><input type="text" name="otro" id="id_otro" required></li>
+                </ul>
+            </ul>
+            <ul style="list-style-type:none;">
+                <li><input type="radio"> <label for="">Prueba Libre</label>
+            </ul>
+    </form>
+    </fieldset>
+    
+    <fieldset style="background-color: rgba(255, 0, 0.457);">
+        <legend style="font-weight:bold ; border:1px solid black ; background-color: rgb(255, 255, 255);">Documentos Adjuntados</legend>
+        <table>
+            <tr>
+                <td><input type="checkbox"> <label for="">Fotocopia DNI</label></td>
+                <td><input type="checkbox"> <label for="">Certifiacado académico</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> <label for="">Otros documentos (especifique)</label></td>
+                <td><input type="text" name="otro" id="id_otro" required></td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <input value="Enviar solicitud" type="submit" name="Enviar solicitud" id="bt_Enviar solicitud">
+
+
+</body>
