@@ -1,0 +1,38 @@
+#rojo{ 
+    background-color: red;
+    color: white;
+}
+table,td,th{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+#azul{
+    background-color: blue;
+}
+#amarillo{
+    background-color: yellow;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#gris{
+    background-color: gray;
+    font-size: 40px;
+}
+#red{
+    text-align: center;
+    color: red;
+}
+#azulito{
+    text-align: start;
+    background-color: blue;
+    color: red;
+}
+img{
+    width: 100px;
+    height: 50px;
+}
+h1{
+    text-align: center;
+}
