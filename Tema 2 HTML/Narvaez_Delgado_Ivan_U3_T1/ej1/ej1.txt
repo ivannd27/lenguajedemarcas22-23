@@ -1,0 +1,6 @@
+Ejercicio 1.
+body: queremos que el fondo de body tenga un color.
+headers: queremos que que el h1 (encabezado) tenga un color y un tamaño específico.
+hr: queremos el hr tenga un color azul
+Paragraphs: queremos que los párrafos tenga un tamaño de párrafo, un márgen por la izquierda y las líneas un color y un márgen.
+links: queremos que cuando no esté visitado esté verde, cuando lo esté amarillo, cuabdo esté encima de él negro y cuando se active azul

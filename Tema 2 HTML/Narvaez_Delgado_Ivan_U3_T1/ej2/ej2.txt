@@ -1,0 +1,1 @@
+lo que pasaba es que teniamos que añadir class="verse" en los párrafos.
