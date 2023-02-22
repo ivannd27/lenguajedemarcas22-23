@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+nav div{
+    display: inline-block;
+    color: black;
+    width: 10%;
+    padding-left: 5%;
+    text-align: right;
+}
+
+nav div:first-child {
+    margin-right: 25%;
+    margin-top: 1%;
+}
+
+nav{
+    z-index: 100;
+    top: 0px;    
+}
+
+.menu{
+    background-color: rgb(160, 158, 158);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+    margin-top: 3%;
+}
+
+.menu div{
+    height: 75%;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    padding-top: 2%;
+    display: inline-block;
+    width: 5%;
+    padding: auto;
+}
+
+.menu1{
+    color: white;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.menu1 p:first-child {
+    transform: rotate(-90deg);
+}
+
+.menu1 p:last-child{
+    margin-top: 300%;
+}
+
+.menu div:first-child{
+    background-color: orange;
+    float: left;
+}
+
+.menu div:nth-child(2){
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.menu div:nth-child(2) img{
+    width: 1220%;
+    height: 110%;
+}
+
+.menu div:nth-child(3){
+    background-color: green;
+    float: right; 
+    margin-right: 2%;
+}
+
+.menu div:nth-child(4){
+    background-color: greenyellow;
+    float: right;
+}
+
+.menu div:nth-child(5){
+    background-color: yellow;
+    float: right;
+}
+
+.menu div:last-child{
+    background-color: rgb(255, 190, 70);
+    float: right;
+}
+
+.course {
+    height: 50%;
+    border-radius: 11px;
+    font-size: 12px;
+    float: left;
+    padding: 9px;
+    margin-top: 30px;
+    text-align: center;
+    width: 19%;
+    margin-left: 5%;
+    background-color: rgb(160, 158, 158);
+}
+
+section.courses{ 
+    float: left;
+    margin-left: 10%;
+    width: 71%;
+}
