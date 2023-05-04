@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+table,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+@media screen and (max-width: 576px) {
+    td.primero {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    td.segundo {
+      display: none;
+    }
+  }
+  
+  

@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: auto auto;
+    display: grid;
+    align-items: center;
+    
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto auto;
+    display: grid;
+    align-items: center;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+header img{
+    width: 45px;
+    height: 45px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    
+}
+
+main{
+    background-color: rgb(32, 34, 37);
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.section1{
+    width: 100%;
+    text-align: center;
+    padding-left: 47px;
+    padding-right: 47px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.S1 p{
+    margin-bottom: 0px;
+}
+
+.S2{
+    width: 100%;
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 1/2 ;
+}
+
+button{
+    width: 30%;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+
+}
+
+.S3{
+    width: 100%;
+    text-align: center;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.S3 p a{
+    text-decoration: none;
+    color: blue;
+}
+
+.S4{
+    width: 100%;
+    text-align: center;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.S4 div img{
+    height: 25%;
+    width: 25%;
+}
+
+@media screen and (max-width: 991px) {
+    header i{
+        display: inherit;
+        grid-column: 2 / 3 ;
+        grid-row: 1 / 2;
+        text-align: right;
+    }
+
+    ul{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header i{
+        display: none;
+    }
+
+    label, input, p.form{
+        display: inherit;
+    }
+
+    ul li{
+        display: inline-block;
+        list-style: none;
+        padding-right: 2%;
+        font-weight: bold;
+    }
+
+}

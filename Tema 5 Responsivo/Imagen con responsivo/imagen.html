@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imagen.css">
+    <title>Mike</title>
+</head>
+<body>
+    <div class="container">
+        <picture>
+          <source media="(min-width: 992px)" srcset="img/perro.jpg"/>
+          <source media="(min-width: 576px)" srcset="img/qatar.jpg"/>
+          <source media="(max-width: 575px)" srcset="img/rata.jpg"/>
+          <img src="img/qatar.jpg"/>
+        </picture>
+        <div id="rojo"></div>
+        <div id="amarillo"></div>
+    </div> 
+</body>
+</html>
