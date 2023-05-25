@@ -1,0 +1,27 @@
+div.red{
+    background-color: red;
+    height: 100px;
+    color: white;
+}
+
+div.blue{
+    background-color: blue;
+    height: 100px;
+    color: white;
+}
+
+div.yellow{
+    background-color: yellow;
+    height: 100px;
+}
+
+div.black{
+    background-color: black;
+    height: 150px;
+    color: white;
+}
+
+div.orange{
+    background-color: orange;
+    height: 150px;
+}

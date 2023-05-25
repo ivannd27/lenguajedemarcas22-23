@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 35px auto;
+}
+
+div,img,p,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    display: flex;
+}
+
+nav{
+    display: none;
+}
+
+.busqueda{
+    display: none;
+}
+
+.logo{
+    width: 35%;
+    margin-top: 5%;
+}
+
+main{
+    background-color: rgb(92, 92, 92);
+}
+
+.titulo1{
+    padding-top: 20px;
+   text-align: center;
+   width: 70%;
+   margin: 0px auto;
+   color: white;
+}
+
+.titulo2{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: medium;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.formu{
+    display: none;
+}
+
+.boton{
+    background-color:pink;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    border:none;
+    height: 50px;
+    width: 35%;
+    margin: 5%;
+    margin-left: 33%;
+}
+
+.imagen{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(179, 179, 179);
+}
+
+.imgrep{
+    border: 12px solid white;
+    width: 45%;
+    margin: 2%;
+    background-color: white;
+}
+
+.imgrep img{
+    width: 100%;
+}
+
+.corazon{
+    color: pink;
+}
+
+.menusito{
+    color: white;
+    margin-right: 2%;
+}
+
+@media screen and (min-width: 577px) {
+    
+    header{
+        display: flex;
+        align-items: center;
+        background-color: black;
+    }
+    
+    header i{
+        font-size: 190%;
+        color: white;
+        margin: 0 15px
+    }
+
+    header img{
+        width: 50%;
+    }
+    
+    header  ul{
+        display: none;
+    }
+    
+    header form{
+        display: none;
+    }
+    
+    main{
+        background-color: rgb(92, 92, 92);
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main h2{
+        flex-basis: 90%;
+    }
+    
+    main section{
+        background-color: white;
+        padding: 10px;
+        color: #555555;
+        width: 75%;
+        margin-bottom: 5%;
+    }
+    
+    main section form{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    main section form label, main section form input{
+        width: 100%;
+        text-align: left;
+    }
+
+    main section + h2{
+        background-color: rgb(92, 92, 92);
+        width: 100%;
+        padding: 2% 0;
+        margin: 0;
+        font-size: 1rem;
+
+    }
+
+    body div section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    
+    body div section div{
+        border: solid 5px #dbdbdb;
+    }
+    
+    body div section div img{
+        width: 35vw;
+    }
+
+}
+
+@media screen and (min-width:992px){
+
+    header{
+        height: 100px;
+        color: black;
+    }
+
+    .menusito{
+        display: none;
+    }
+
+    .logo{
+        height: 50%;
+        width: 20%;
+    }
+
+    .menu{
+       display: flex; 
+    }
+
+    .menu .listas{
+        display: inline-block;
+        color: white;
+        margin-top: 7%;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    
+    .busqueda{
+        display: inline-block;
+        color: white;
+        margin-top: 3%;
+    }
+
+    .busqueda input{
+        width: 60%;
+        border-radius: 0;
+        height: 30px;
+    }
+
+    .formulario{
+        width: 50%;
+    }
+
+    .imagen{
+        width: 100%;
+    }
+
+    .imgrep{
+        width: 24%;
+        margin: 1%;
+    }
+}
